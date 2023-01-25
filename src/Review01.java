@@ -13,7 +13,7 @@ public class Review01 {
     //消費税額を計算するメソッド（taxamount=税額）
     public static int taxcalculation(int taxamount) {
         //税率の変数と税率の設定、税率の変更が必要ならここで設定する。
-        double taxrate = 0.2d;
+        double taxrate = 0.1d;
         //消費税金額の計算　（int）で小数点以下切り捨て
         int result =(int)(taxrate*taxamount);
         //計算結果を戻す
